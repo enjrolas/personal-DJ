@@ -5,8 +5,8 @@ require "twilio.php";
 $ApiVersion = "2008-08-01";
 
 /* Set our AccountSid and AuthToken */
-$AccountSid = "ACf4d4fd8e6e8d8c77d2d06f91cfdf058f";
-$AuthToken = "eec7a865c443edbe6d3a8d54fd6f9832";
+$AccountSid = "*****";
+$AuthToken = "*******";
 
 /* Outgoing Caller ID you have previously validated with Twilio */
 $CallerID = '6173541973';
