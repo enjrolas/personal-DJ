@@ -1,0 +1,10 @@
+<?php
+    header("content-type: text/xml");
+    echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+?>
+<Response>
+    <Say>what would you like to hear?</Say>
+    <Record transcribe="true" transcribeCallback="<?php 
+        echo "song_callback.php?"; ?>"        
+        action="<?php echo "dump.php?numer=".urlencode($_REQUEST['caller']); ?>" maxLength="15"/>
+</Response>

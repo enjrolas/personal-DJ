@@ -1,0 +1,15 @@
+<?php
+
+require_once('lib/init.php');
+
+$search_request['s_all']=$_REQUEST['TranscriptionText'];
+$results=run_search($search_request);
+$song_url=$results[0]->get_url();
+header("content-type: text/xml");
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+
+//if($song_url){ ?>
+<Response>
+    <Say>You searched for <?php echo $search_request ?></Say>
+     <Play><?php echo $_REQUEST['url'] ?></Play>
+</Response>

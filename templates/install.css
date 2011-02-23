@@ -1,0 +1,140 @@
+<!-- 
+/*
+
+ Copyright (c) 2001 - 2006 Ampache.org
+ All rights reserved.
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+*/
+-->
+
+<style type="text/css">
+<!--
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	background: #FFFFFF url(images/top_bg.jpg) repeat-x top left;
+}
+
+/* Header */
+#header {
+    width: 90%;
+    min-height: 85px;
+    height: 85px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    font-size: smaller;
+	display: block;
+}
+
+#header h1 {
+    margin: 0;
+    padding-top: 16px;
+    color: #000;
+    font-weight: bold;
+    font-size: large;
+}
+
+#header p {
+    font-size: smaller;
+    color: #000;
+    margin: 0px;
+}
+
+/* Content */
+#text-box {
+    width: 90%;
+    min-height: 85px;
+    height: 85px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    font-size: smaller;
+}
+
+.notify {
+    border: 1px solid #cccccc;
+	background-color: #f4f4f4;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.content {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+/* Table style */
+td{
+	padding:5px;
+	background-color: #D9E0E8;
+    font-size: smaller;
+}
+
+.align{
+	text-align:right;
+}
+
+/* Estilos para formas */
+input, radio, select, textarea {
+	border: 1px solid #ddd;
+	background: #f2f2f2;
+	font: 11px verdana, sans-serif;
+	color: #443;
+	padding: 2px;
+	outline: none;
+}
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus{ 
+	border: 1px solid #aaa; 
+}
+
+/* Extras  */
+.ok {
+font-weight:bold;
+color:#009900;
+margin:10px 10 10px 10px;
+}
+
+.notok {
+font-weight:bold;
+color:#FF3300;
+margin:10px 10 10px 10px;
+}
+
+/* Bottom */
+#bottom {
+    border-top: 1px dotted #cccccc;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	padding:5px;
+}
+
+#bottom p {
+	font-size:10px;
+}
+
+-->
+</style>
+
+
