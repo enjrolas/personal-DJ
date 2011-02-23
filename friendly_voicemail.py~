@@ -11,7 +11,7 @@ import string
 while True:
 	voice = Voice()
 	print "logging in..."
-	voice.login('bridgewalker@gmail.com', '16onasummerroof')
+	voice.login('******gmail address*****', '******gmail pass*******')
 	newMessage=False
 	voiceRequest=False
 	smsRequest=False
